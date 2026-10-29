@@ -1,0 +1,16 @@
+[
+    {
+        "Quest ID": "Q002",
+        "Quest Name": "Defeat The Goblin King",
+        "Quest Location": "Cave",
+        "Quest Reward": 500,
+        "Quest Progress": "In Progress"
+    },
+    {
+        "Quest ID": "Q005",
+        "Quest Name": "Defeat The Ancient Dragon",
+        "Quest Location": "Volcano",
+        "Quest Reward": 1200,
+        "Quest Progress": "In Progress"
+    }
+]

@@ -1,0 +1,7 @@
+Q001 | Find the Lost Sword | Forest | 150 | Completed
+Q002 | Defeat the Goblin King | Cave | 500 | In Progress
+Q003 | Collect Healing Herbs | Meadow | 75 | Completed
+Q004 | Rescue the Village Merchant | Mountain | 300 | Not Started
+Q005 | Defeat the Ancient Dragon | Volcano | 1200 | In Progress
+Q006 | Find the Hidden Treasure | Forest | 400 | Completed
+Q007 | Clear the Spider Nest | Cave | 200 | Not Started
