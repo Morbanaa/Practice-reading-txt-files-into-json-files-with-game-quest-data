@@ -1,11 +1,3 @@
-"""
-Quest Id
-Quest Name
-Quest Location
-Quest Reward
-Quest Progress
-"""
-
 import json
 
 def main(): 
@@ -36,7 +28,10 @@ def main():
                     
                     quest["Quest Progress"] = val[4].strip().title()
                     if quest["Quest Progress"] == "Completed":
-                        summary["Total"] += quest["Quest Reward"]
+                        try:
+                            summary["Total"] += quest["Quest Reward"]
+                        except KeyError:
+                            pass
 
                     if quest["Quest Progress"] == "In Progress":
                         active_log.append(quest)
@@ -54,6 +49,7 @@ def main():
 
     except FileNotFoundError:
         print("File Not Found, Check File Path")
+        return
 
     print()
     while True:
@@ -62,7 +58,7 @@ def main():
 
         found = False
         for quest in quest_log:
-            if choice in quest["Quest Location"]:
+            if choice == quest["Quest Location"]:
                 found = True
                 for key,value in quest.items():
                     print(f"{key}: {value}")
